@@ -14,7 +14,7 @@ except ImportError as e:
 def load_data():
     """Load recommendation data from pickle file"""
     try:
-        with open('recommendation data.pkl', 'rb') as f:
+        with open('recommendation_data.pkl', 'rb') as f:
             data = pickle.load(f)
         return data
     except Exception as e:
