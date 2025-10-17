@@ -3,7 +3,7 @@ try:
     import pickle
     import pandas as pd
     import numpy as np
-    from myfunction import get_movie_recommendations
+    from myfunction_67130701913 import get_movie_recommendations
 except ImportError as e:
     print(f"Missing required packages. Please install: pip install streamlit pandas numpy")
     print(f"Error: {e}")
